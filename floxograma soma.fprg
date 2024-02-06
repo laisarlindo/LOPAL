@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 09:35:17 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjA3OzIwMjQtMDItMDY7IjA5OjE3OjEzICI7MjI1NA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjA3OzIwMjQtMDItMDY7IjA5OjM1OjE3ICI7MTsyMzY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="d" type="Real" array="False" size=""/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro numero &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite o segundo numero &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Digite o terceiro numero &quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;Digite o quarto numero &quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="Soma" expression="a+b+c+d"/>
+            <output expression="&quot;Resultado  da soma &#233; &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
