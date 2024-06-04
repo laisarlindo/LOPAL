@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 02:24:50 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjA3OzIwMjQtMDItMDY7IjAxOjQ4OjU1ICI7MjI1Ng=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjA3OzIwMjQtMDItMDY7IjAyOjI0OjUwICI7MTsyMzU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lanche" type="String" array="False" size=""/>
+            <output expression="&quot;Qual lanche voc&#234; quer temos X-salada X-becon X-tudo X-dorama X-chedar&quot;" newline="True"/>
+            <input variable="lanche"/>
+            <if expression="lanche ==&quot;X-Dorama&quot;">
+                <then>
+                    <output expression="&quot; Esse lanche custa 20,00&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="lanche == &quot;X-Becon&quot;">
+                <then>
+                    <output expression="&quot;Esse lanche custa 17,00&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="lanche == &quot;X-Salada&quot;">
+                <then>
+                    <output expression="&quot;Esse lanche custa 23,00&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="lanche== &quot;X-Tudo&quot;">
+                <then>
+                    <output expression="&quot;Esse lanche custa 19,00&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
