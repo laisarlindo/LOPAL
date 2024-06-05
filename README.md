@@ -30,8 +30,13 @@ Os operadores lógicos entram quando precisamos realizar operações sobre um ou
 
   # Laços de repetição
   Contador: O laço for é uma estrutura de controle que executa um bloco de código um número específico de vezes. Ele é composto por três partes: inicialização, condição e incremento.
-
   Condicional: O laço while é uma estrutura de controle que executa um bloco de código enquanto uma condição específica for verdadeira. A condição é verificada antes da execução do bloco de código.
 
-  # 
+# Vetores
+
+Os vetores são tipos que permitem o armazenamento de uma coleção de valores do mesmo tipo, ou seja, os vetores são estruturas de dados homogêneas.
+
+# Matrizes
+
+São estruturas de dados cruciais para armazenar e organizar coleções de elementos do mesmo tipo. 
 
